@@ -36,4 +36,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
-<body><script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=PdsyeZT03O3HeTFlncPBq75_KYWP8pDoq3FoCZUzv7o&cl=ffffff&w=a"></script></body>
+<body><script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=PdsyeZT03O3HeTFlncPBq75_KYWP8pDoq3FoCZUzv7o&cl=ffffff&w=a"></script>
+<a href="https://www.easycounter.com/">
+<img src="https://www.easycounter.com/counter.php?wangyuenlp"
+border="0" alt="page counter"></a>
+<br><a href="https://www.easycounter.com/">HTML Hit Counter</a>
+</body>

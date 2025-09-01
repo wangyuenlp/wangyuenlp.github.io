@@ -26,8 +26,8 @@ I am actively seeking industry positions and welcome opportunities to apply my r
 ## News
 
 - 2025.06 I am invited to present a talk at BAAI 2025. <a href="https://event.baai.ac.cn/activities/928" style="background-color:rgb(0, 84, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Video</a>
-- 2025.04 We released Deepmath-103k: A large-scale mathematical dataset for advancing reasoning, once trended #1 on Hugging Face Datasets. ([ArXiv](https://arxiv.org/abs/2504.11456)). <a href="https://mp.weixin.qq.com/s/EkVeW5pLRM8_T6hrrs7lsA" style="background-color:rgb(93, 186, 0); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a> <a href="https://huggingface.co/datasets/zwhe99/DeepMath-103K" style="background-color:rgb(186, 174, 0); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Data</a>
-- 2025.01 We revealed the underthinking issue in large reasoning models ([ArXiv](https://arxiv.org/abs/2501.18585)). <a href="https://mp.weixin.qq.com/s/6oejP8sKLAHGeD2esUZPcA" style="background-color:rgb(93, 186, 0); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
+- 2025.04 We released Deepmath-103k: A large-scale mathematical dataset for advancing reasoning, once trended #1 on Hugging Face Datasets. ([ArXiv](https://arxiv.org/abs/2504.11456)). <a href="https://mp.weixin.qq.com/s/EkVeW5pLRM8_T6hrrs7lsA" style="background-color:rgb(136, 0, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a> <a href="https://huggingface.co/datasets/zwhe99/DeepMath-103K" style="background-color:rgb(186, 174, 0); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Data</a>
+- 2025.01 We revealed the underthinking issue in large reasoning models ([ArXiv](https://arxiv.org/abs/2501.18585)). <a href="https://mp.weixin.qq.com/s/6oejP8sKLAHGeD2esUZPcA" style="background-color:rgb(136, 0, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
 
 
 ## Publications
@@ -60,12 +60,12 @@ I am actively seeking industry positions and welcome opportunities to apply my r
 
     Juntao Li, Xiaobo Liang, Lijun Wu, **Yue Wang**, Qi Meng, Tao Qin, Min Zhang, and Tie-Yan Liu.
 
-- **(NeurIPS 2021)** [R-Drop: Regularized Dropout for Neural Networks](https://proceedings.neurips.cc/paper/2021/hash/5a66b9200f29ac3fa0ae244cc2a51b39-Abstract.html) <a href="https://mp.weixin.qq.com/s/IvhGbFEMotpKJIUPExUklg" style="background-color:rgb(93, 186, 0); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
+- **(NeurIPS 2021)** [R-Drop: Regularized Dropout for Neural Networks](https://proceedings.neurips.cc/paper/2021/hash/5a66b9200f29ac3fa0ae244cc2a51b39-Abstract.html) <a href="https://mp.weixin.qq.com/s/IvhGbFEMotpKJIUPExUklg" style="background-color:rgb(136, 0, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
 
     Xiaobo Liang, Lijun Wu, Juntao Li, **Yue Wang**, Qi Meng, Tao Qin, Wei Chen, Min Zhang, Tie-Yan Liu.
 
 ## Pre-Prints
-- [Thoughts are all over the place: On the underthinking of o1-like llms](https://arxiv.org/abs/2501.18585) <a href="https://mp.weixin.qq.com/s/6oejP8sKLAHGeD2esUZPcA" style="background-color:rgb(93, 186, 0); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
+- [Thoughts are all over the place: On the underthinking of o1-like llms](https://arxiv.org/abs/2501.18585) <a href="https://mp.weixin.qq.com/s/6oejP8sKLAHGeD2esUZPcA" style="background-color:rgb(136, 0, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
 
     **Yue Wang**, Qiuzhi Liu, Jiahao Xu, Tian Liang, Xingyu Chen, Zhiwei He, Linfeng Song, Dian Yu, Juntao Li, Zhuosheng Zhang, Rui Wang, Zhaopeng Tu, Haitao Mi, Dong Yu.
 
@@ -73,15 +73,15 @@ I am actively seeking industry positions and welcome opportunities to apply my r
 
     **Yue Wang**, Xinrui Wang, Juntao Li, Jinxiong Chang, Qishen Zhang, Zhongyi Liu, Guannan Zhang, Min Zhang.
 
-- [Deepmath-103k: A large-scale, challenging, decontaminated, and verifiable mathematical dataset for advancing reasoning](https://arxiv.org/abs/2504.11456) <a href="https://mp.weixin.qq.com/s/EkVeW5pLRM8_T6hrrs7lsA" style="background-color:rgb(93, 186, 0); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
+- [Deepmath-103k: A large-scale, challenging, decontaminated, and verifiable mathematical dataset for advancing reasoning](https://arxiv.org/abs/2504.11456) <a href="https://mp.weixin.qq.com/s/EkVeW5pLRM8_T6hrrs7lsA" style="background-color:rgb(136, 0, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
 
     Zhiwei He, Tian Liang, Jiahao Xu, Qiuzhi Liu, Xingyu Chen, **Yue Wang**, Linfeng Song, Dian Yu, Zhenwen Liang, Wenxuan Wang, Zhuosheng Zhang, Rui Wang, Zhaopeng Tu, Haitao Mi, Dong Yu.
 
-- [Sentient Agent as a Judge: Evaluating Higher-Order Social Cognition in Large Language Models](https://arxiv.org/abs/2505.02847) <a href="https://mp.weixin.qq.com/s/OtPxc0IBv7TKaE12naMAWA" style="background-color:rgb(93, 186, 0); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
+- [Sentient Agent as a Judge: Evaluating Higher-Order Social Cognition in Large Language Models](https://arxiv.org/abs/2505.02847) <a href="https://mp.weixin.qq.com/s/OtPxc0IBv7TKaE12naMAWA" style="background-color:rgb(136, 0, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
 
     Bang Zhang, Ruotian Ma, Qingxuan Jiang, Peisong Wang, Jiaqi Chen, Zheng Xie, Xingyu Chen, **Yue Wang**, Fanghua Ye, Jian Li, Yifan Yang, Zhaopeng Tu, Xiaolong Li.
 
-- [Two Experts Are All You Need for Steering Thinking: Reinforcing Cognitive Effort in MoE Reasoning Models Without Additional Training](https://arxiv.org/abs/2505.14681) <a href="https://mp.weixin.qq.com/s?search_click_id=16787548793089112810-1756712228014-6382523631&__biz=MzIzNjc1NzUzMw==&mid=2247799557&idx=3&sn=7b40f24bdf7cb0ec55e5c2adea6df290&chksm=e9c88262a4c053e20c4974e29d629501ca6965c9c5fd171cd01a3998999967345c01d0b657e6&scene=7#rd" style="background-color:rgb(93, 186, 0); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
+- [Two Experts Are All You Need for Steering Thinking: Reinforcing Cognitive Effort in MoE Reasoning Models Without Additional Training](https://arxiv.org/abs/2505.14681) <a href="https://mp.weixin.qq.com/s?search_click_id=16787548793089112810-1756712228014-6382523631&__biz=MzIzNjc1NzUzMw==&mid=2247799557&idx=3&sn=7b40f24bdf7cb0ec55e5c2adea6df290&chksm=e9c88262a4c053e20c4974e29d629501ca6965c9c5fd171cd01a3998999967345c01d0b657e6&scene=7#rd" style="background-color:rgb(136, 0, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
 
     Mengru Wang, Xingyu Chen, **Yue Wang**, Zhiwei He, Jiahao Xu, Tian Liang, Qiuzhi Liu, Yunzhi Yao, Wenxuan Wang, Ruotian Ma, Haitao Mi, Ningyu Zhang, Zhaopeng Tu, Xiaolong Li, Dong Yu.
 

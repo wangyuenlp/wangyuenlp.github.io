@@ -7,13 +7,13 @@
 # 基本网站设置
 locale                   : "en-US"
 site_theme               : "default" # 当前可用选项："default", "air"
-title                    : "Your Name / Site Title"  # 网站标题，显示在浏览器标签页
+title                    : "Yue Wang's Homepage"  # 网站标题，显示在浏览器标签页
 title_separator          : "-"
-name                     : &name "Your Name"  # 您的姓名，用于SEO和其他地方
-description              : &description "personal description"  # 网站描述，用于SEO
-url                      : https://academicpages.github.io # 网站的基本主机名和协议
+name                     : &name "Yue Wang"  # 您的姓名，用于SEO和其他地方
+description              : &description "Yue Wang's homepage"  # 网站描述，用于SEO
+url                      : https://wangyuenlp.github.io # 网站的基本主机名和协议
 baseurl                  : "" # 网站的子路径
-repository               : "academicpages/academicpages.github.io"
+repository               : "wangyuenlp/wangyuenlp.github.io"
 
 # 网站作者信息 - 以下控制侧边栏作者内容的显示
 # 如果字段为空，图标和链接将不会出现，否则将显示

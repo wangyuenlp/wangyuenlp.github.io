@@ -1,0 +1,134 @@
+---
+layout: default
+---
+
+<!-- 单页面布局：将所有内容整合到一个页面中，通过锚点导航 -->
+<!-- 用途：替代传统的多页面结构，提供更流畅的用户体验 -->
+<!-- 实现逻辑：使用HTML锚点和CSS定位，配合JavaScript实现平滑滚动 -->
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    <!-- 主要内容区域 -->
+    <div class="single-page-content">
+      
+      <!-- 关于我部分 -->
+      <section id="about" class="page-section">
+        <h1 class="page__title">{{ page.title }}</h1>
+        <div class="page__content">
+          {{ content }}
+        </div>
+      </section>
+
+      <!-- 发表论文部分 -->
+      <section id="publications" class="page-section">
+        <h1 class="section-title">Publications</h1>
+        <div class="section-content">
+          {% for post in site.publications reversed %}
+            {% include archive-single.html %}
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- 学术报告部分 -->
+      <section id="talks" class="page-section">
+        <h1 class="section-title">Talks</h1>
+        <div class="section-content">
+          {% for post in site.talks reversed %}
+            {% include archive-single-talk.html %}
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- 教学经历部分 -->
+      <section id="teaching" class="page-section">
+        <h1 class="section-title">Teaching</h1>
+        <div class="section-content">
+          {% for post in site.teaching reversed %}
+            {% include archive-single.html %}
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- 项目作品集部分 -->
+      <section id="portfolio" class="page-section">
+        <h1 class="section-title">Portfolio</h1>
+        <div class="section-content">
+          {% for post in site.portfolio %}
+            {% include archive-single.html %}
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- 博客文章部分 -->
+      <section id="blog" class="page-section">
+        <h1 class="section-title">Recent Posts</h1>
+        <div class="section-content">
+          {% for post in site.posts limit:5 %}
+            {% include archive-single.html %}
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- 简历部分 -->
+      <section id="cv" class="page-section">
+        <h1 class="section-title">CV</h1>
+        <div class="section-content">
+          <p>You can download my CV <a href="/files/cv.pdf">here</a>.</p>
+          <!-- 这里可以嵌入CV的主要内容 -->
+        </div>
+      </section>
+
+      <!-- 使用指南部分 -->
+      <section id="guide" class="page-section">
+        <h1 class="section-title">Guide</h1>
+        <div class="section-content">
+          <p>This section contains guides and tutorials.</p>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+<!-- 添加CSS样式 -->
+<style>
+/* 单页面布局样式 */
+.page-section {
+  margin-bottom: 3em;  /* 各部分之间的间距 */
+  padding-top: 2em;    /* 顶部内边距，为锚点导航留出空间 */
+  border-bottom: 1px solid #e0e0e0;  /* 分隔线 */
+}
+
+.page-section:last-child {
+  border-bottom: none;  /* 最后一个部分不显示分隔线 */
+}
+
+.section-title {
+  color: #2c3e50;      /* 标题颜色 */
+  margin-bottom: 1em;   /* 标题下方间距 */
+  font-size: 2em;      /* 标题字体大小 */
+}
+
+.section-content {
+  margin-left: 1em;    /* 内容左边距 */
+}
+
+/* 平滑滚动效果 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .page-section {
+    margin-bottom: 2em;
+    padding-top: 1em;
+  }
+  
+  .section-title {
+    font-size: 1.5em;
+  }
+}
+</style>

@@ -1,22 +1,47 @@
 {% include base_path %}
 
+<!-- 网站头部导航栏 -->
+<!-- 用途：提供网站主要功能的导航入口，支持页面内锚点跳转 -->
+<!-- 实现逻辑：使用Jekyll液体模板语言动态生成导航链接，支持响应式设计 -->
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <!-- 网站标题，点击返回首页 -->
+          <li class="masthead__menu-item masthead__menu-item--lg persist">
+            <a href="{{ base_path }}/">{{ site.title }}</a>
+          </li>
+          
+          <!-- 动态生成导航菜单 -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
+              <!-- 外部链接：直接跳转 -->
               {% assign domain = '' %}
+              <li class="masthead__menu-item">
+                <a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+              </li>
+            {% elsif link.url contains '#' %}
+              <!-- 页面内锚点链接：平滑滚动到指定位置 -->
+              <li class="masthead__menu-item">
+                <a href="{{ link.url }}" class="smooth-scroll">{{ link.title }}</a>
+              </li>
             {% else %}
+              <!-- 内部页面链接：正常跳转 -->
               {% assign domain = base_path %}
+              <li class="masthead__menu-item">
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+              </li>
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          
+          <!-- 主题切换按钮 -->
           <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
+            <a role="button" aria-labelledby="theme-icon">
+              <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="切换主题"></i>
+            </a>
           </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -24,3 +49,54 @@
     </div>
   </div>
 </div>
+
+<!-- 平滑滚动JavaScript -->
+<script>
+// 平滑滚动到锚点功能
+// 用途：提供更好的用户体验，避免突兀的页面跳转
+// 实现逻辑：监听锚点链接点击事件，使用scrollIntoView API实现平滑滚动
+
+document.addEventListener('DOMContentLoaded', function() {
+  // 获取所有平滑滚动链接
+  const smoothScrollLinks = document.querySelectorAll('a.smooth-scroll, a[href^="#"]');
+  
+  smoothScrollLinks.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      // 获取目标锚点
+      const targetId = this.getAttribute('href');
+      
+      // 检查是否为页面内锚点
+      if (targetId.startsWith('#')) {
+        e.preventDefault(); // 阻止默认跳转行为
+        
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+          // 平滑滚动到目标位置
+          targetElement.scrollIntoView({
+            behavior: 'smooth',    // 平滑滚动
+            block: 'start',       // 滚动到元素顶部
+            inline: 'nearest'     // 水平方向最近位置
+          });
+          
+          // 更新URL哈希值（可选）
+          history.pushState(null, null, targetId);
+        }
+      }
+    });
+  });
+  
+  // 页面加载时检查URL哈希值
+  if (window.location.hash) {
+    setTimeout(function() {
+      const targetElement = document.querySelector(window.location.hash);
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    }, 100); // 延迟执行，确保页面完全加载
+  }
+});
+</script>

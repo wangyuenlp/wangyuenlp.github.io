@@ -14,33 +14,12 @@ layout: default
     <div class="single-page-content">
       
       <!-- 关于我部分 -->
-      <section id="about" class="page-section">
+      <section id="about-me" class="page-section">
         <h1 class="page__title">{{ page.title }}</h1>
         <div class="page__content">
           {{ content }}
         </div>
       </section>
-
-      <!-- 发表论文部分 -->
-      <section id="publications" class="page-section">
-        <h1 class="section-title">Publications</h1>
-        <div class="section-content">
-          {% for post in site.publications reversed %}
-            {% include archive-single.html %}
-          {% endfor %}
-        </div>
-      </section>
-
-      <!-- 学术报告部分 -->
-      <section id="talks" class="page-section">
-        <h1 class="section-title">Talks</h1>
-        <div class="section-content">
-          {% for post in site.talks reversed %}
-            {% include archive-single-talk.html %}
-          {% endfor %}
-        </div>
-      </section>
-
 
     </div>
   </div>

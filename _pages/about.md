@@ -93,10 +93,10 @@ I am actively seeking industry positions and welcome opportunities to apply my r
 - "The Challenge of Reasoning Efficiency in Large Reasoning Models" (BAAI 2025) <a href="https://event.baai.ac.cn/activities/928" style="background-color:rgb(0, 84, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Video</a>
 
 ## Internships
-- 2024.09 - 2025.03, research intern at Tencent Hunyuan Digital Human, advised by Dr. Zhaopeng Tu.
-- 2024.09 - 2025.03, research intern at Tencent AI Lab, advised by Dr. Zhaopeng Tu.
-- 2022.03 - 2024.08, research intern at Ant Group.
+- 2024.09 - 2025.03, research intern at Tencent Hunyuan Digital Human, advised by Dr. Zhaopeng Tu
+- 2024.09 - 2025.03, research intern at Tencent AI Lab, advised by Dr. Zhaopeng Tu
+- 2022.03 - 2024.08, research intern at Ant Group
 
 ## Awards
-- 2021, Outstanding Graduate Student at Soochow University.
-- 2019, CW Chu Scholarship at Soochow University.
+- 2021, Outstanding Graduate Student at Soochow University
+- 2019, CW Chu Scholarship at Soochow University

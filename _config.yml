@@ -9,7 +9,7 @@ locale                   : "en-US"
 site_theme               : "default" # 当前可用选项："default", "air"
 title                    : "Yue Wang's Homepage"  # 网站标题，显示在浏览器标签页
 title_separator          : "-"
-name                     : &name "Yue Wang"  # 您的姓名，用于SEO和其他地方
+name                     : &name "Yue Wang (王越)"  # 您的姓名，用于SEO和其他地方
 description              : &description "Yue Wang's homepage"  # 网站描述，用于SEO
 url                      : https://wangyuenlp.github.io # 网站的基本主机名和协议
 baseurl                  : "" # 网站的子路径

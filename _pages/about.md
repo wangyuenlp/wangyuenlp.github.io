@@ -1,5 +1,6 @@
 ---
 permalink: /
+title: "Yue Wang's Homepage"
 author_profile: true  # 显示作者信息侧边栏
 layout: single-page   # 使用单页面布局
 redirect_from: 

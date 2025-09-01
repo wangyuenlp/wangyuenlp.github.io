@@ -5,13 +5,13 @@ main:
   - title: "Research Interests"  # 研究兴趣
     url: /#research-interests
 
-  - title: "Pre-Prints"  # 预印本论文
-    url: /#pre-prints
+  - title: "News"  # 预印本论文
+    url: /#news
 
   - title: "Publications"  # 发表论文
     url: /#publications
 
-  - title: "Talks"  # 学术报告
+  - title: "Talk"  # 学术报告
     url: /#talk
 
   - title: "Internships"  # 实习经历

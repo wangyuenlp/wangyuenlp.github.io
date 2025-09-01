@@ -20,26 +20,18 @@ repository               : "wangyuenlp/wangyuenlp.github.io"
 # 可以通过编辑 /_includes/author-profile.html 进行额外的自定义
 author:
   # 个人信息
-  avatar           : "image.png"  # 头像文件名，使用根目录下的 image.png
-  name             : "Your Sidebar Name"  # 侧边栏显示的姓名
+  avatar           : "images/image.png"  # 头像文件名，使用根目录下的 image.png
+  name             : "Yue Wang"  # 侧边栏显示的姓名
   pronouns         : # 代词示例: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"  # 侧边栏简短传记
-  location         : "Earth"  # 所在地
-  employer         : "Red Brick University"  # 工作单位
+  bio              : "Fifth-year Ph.D. student in Computer Science at Soochow University, China."  # 侧边栏简短传记
+  location         : "China"  # 所在地
+  employer         : "Soochow University"  # 工作单位
   uri              : # 个人网站URL
-  email            : "none@example.org"  # 邮箱地址
+  email            : "wangyuenlp@gmail.com"  # 邮箱地址
 
   # 学术网站链接
-  academia         : # Academia.edu URL
-  arxiv            : # ArXiv URL - 更新为您的正确链接
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=WQGzqmAAAAAJ"  # 您的Google Scholar链接
-  inspire-hep      : # INSPIRE-HEP URL
-  impactstory      : # ImpactStory URL
-  orcid            : "http://orcid.org/yourorcidurl"  # ORCID URL
-  semantic         : # Semantic Scholar URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"  # PubMed URL
-  researchgate     : # ResearchGate URL
-  scopus           : # Scopus URL
+
 
   # 代码仓库和软件开发
   bitbucket        : # Bitbucket用户名

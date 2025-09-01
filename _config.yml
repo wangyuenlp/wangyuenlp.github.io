@@ -9,7 +9,7 @@ locale                   : "en-US"
 site_theme               : "default" # 当前可用选项："default", "air"
 title                    : "Yue Wang's Homepage"  # 网站标题，显示在浏览器标签页
 title_separator          : "-"
-name                     : &name "Yue Wang (王越)"  # 您的姓名，用于SEO和其他地方
+name                     : &name "Yue Wang"  # 您的姓名，用于SEO和其他地方
 description              : &description "Yue Wang's homepage"  # 网站描述，用于SEO
 url                      : https://wangyuenlp.github.io # 网站的基本主机名和协议
 baseurl                  : "" # 网站的子路径
@@ -21,7 +21,7 @@ repository               : "wangyuenlp/wangyuenlp.github.io"
 author:
   # 个人信息
   avatar           : "image.png"
-  name             : "Yue Wang"  # 侧边栏显示的姓名
+  name             : "Yue Wang (王越)"  # 侧边栏显示的姓名
   bio              : "PhD Student @ Soochow University"  # 侧边栏简短传记
   location         : "China"  # 所在地
   employer         : "Soochow University"  # 工作单位

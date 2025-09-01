@@ -1,5 +1,5 @@
 main:
-  - title: "About"  # 关于我
+  - title: "About me"  # 关于我
     url: /#about-me
 
   - title: "Research Interests"  # 研究兴趣

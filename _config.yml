@@ -20,13 +20,11 @@ repository               : "wangyuenlp/wangyuenlp.github.io"
 # 可以通过编辑 /_includes/author-profile.html 进行额外的自定义
 author:
   # 个人信息
-  avatar           : "images/image.png"  # 头像文件名，使用根目录下的 image.png
+  avatar           : "images/image.png"
   name             : "Yue Wang"  # 侧边栏显示的姓名
-  pronouns         : # 代词示例: "she/her"  
-  bio              : "Fifth-year Ph.D. student in Computer Science at Soochow University, China."  # 侧边栏简短传记
+  bio              : "PhD Student @ Soochow University"  # 侧边栏简短传记
   location         : "China"  # 所在地
   employer         : "Soochow University"  # 工作单位
-  uri              : # 个人网站URL
   email            : "wangyuenlp@gmail.com"  # 邮箱地址
 
   # 学术网站链接
@@ -37,13 +35,12 @@ author:
   bitbucket        : # Bitbucket用户名
   codepen          : # CodePen用户名
   dribbble         : # Dribbble用户名
-  github           : "academicpages"  # GitHub用户名
+  github           : "wangyuenlp"  # GitHub用户名
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username

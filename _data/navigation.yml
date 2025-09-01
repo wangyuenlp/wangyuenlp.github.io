@@ -9,21 +9,3 @@ main:
 
   - title: "Talks"  # 学术报告
     url: /#talks    
-
-  - title: "Teaching"  # 教学经历
-    url: /#teaching    
-    
-  - title: "Portfolio"  # 项目作品集
-    url: /#portfolio
-        
-  - title: "Blog Posts"  # 博客文章
-    url: /#blog
-    
-  - title: "CV"  # 简历
-    url: /#cv
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"  # 使用指南
-    url: /#guide

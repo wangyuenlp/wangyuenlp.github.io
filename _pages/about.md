@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "学术主页"  # 页面标题
+title: "Yue Wang"  # 页面标题
 author_profile: true  # 显示作者信息侧边栏
 layout: single-page   # 使用单页面布局
 redirect_from: 
@@ -38,7 +38,3 @@ redirect_from:
 - 邮箱：[您的邮箱]
 - Google Scholar：[您的Google Scholar链接](https://scholar.google.com/citations?hl=en&user=WQGzqmAAAAAJ)
 - 办公室：[您的办公室地址]
-
----
-
-*本网站使用单页面设计，您可以通过顶部导航栏快速跳转到不同部分。*

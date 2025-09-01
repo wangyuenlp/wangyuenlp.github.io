@@ -41,52 +41,6 @@ layout: default
         </div>
       </section>
 
-      <!-- 教学经历部分 -->
-      <section id="teaching" class="page-section">
-        <h1 class="section-title">Teaching</h1>
-        <div class="section-content">
-          {% for post in site.teaching reversed %}
-            {% include archive-single.html %}
-          {% endfor %}
-        </div>
-      </section>
-
-      <!-- 项目作品集部分 -->
-      <section id="portfolio" class="page-section">
-        <h1 class="section-title">Portfolio</h1>
-        <div class="section-content">
-          {% for post in site.portfolio %}
-            {% include archive-single.html %}
-          {% endfor %}
-        </div>
-      </section>
-
-      <!-- 博客文章部分 -->
-      <section id="blog" class="page-section">
-        <h1 class="section-title">Recent Posts</h1>
-        <div class="section-content">
-          {% for post in site.posts limit:5 %}
-            {% include archive-single.html %}
-          {% endfor %}
-        </div>
-      </section>
-
-      <!-- 简历部分 -->
-      <section id="cv" class="page-section">
-        <h1 class="section-title">CV</h1>
-        <div class="section-content">
-          <p>You can download my CV <a href="/files/cv.pdf">here</a>.</p>
-          <!-- 这里可以嵌入CV的主要内容 -->
-        </div>
-      </section>
-
-      <!-- 使用指南部分 -->
-      <section id="guide" class="page-section">
-        <h1 class="section-title">Guide</h1>
-        <div class="section-content">
-          <p>This section contains guides and tutorials.</p>
-        </div>
-      </section>
 
     </div>
   </div>

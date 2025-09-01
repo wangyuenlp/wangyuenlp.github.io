@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-## About me
+# About me
 
 I am a fifth-year PhD student (2021-present) of Department of Computer Science and Technology at Soochow University. I am fortunate to be advised by Prof. [Min Zhang](https://scholar.google.com/citations?user=CncXH-YAAAAJ&hl=en) and [Juntao Li](https://lijuntaopku.github.io/). Before that, I received the bachelor degree in Computer Science from Soochow University at 2021. I am currently a research intern at Tencent Hunyuan Digital Human, advised by Dr. [Zhaopeng Tu](https://scholar.google.com/citations?user=IvE2zRgAAAAJ&hl=en).
 
@@ -16,20 +16,20 @@ I am actively seeking industry positions and welcome opportunities to apply my r
 - Email: [wangyuenlp@gmail.com](mailto:wangyuenlp@gmail.com)
 
 
-## Research Interests
+# Research Interests
 
 - Natural Language Processing
 - Large Reasoning Models
 - Multimodal Reasoning
 
-## News
+# News
 
 - 2025.06 I am invited to present a talk at BAAI 2025. <a href="https://event.baai.ac.cn/activities/928" style="background-color:rgb(0, 84, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Video</a>
 - 2025.04 We released Deepmath-103k: A large-scale mathematical dataset for advancing reasoning, once trended #1 on Hugging Face Datasets. ([ArXiv](https://arxiv.org/abs/2504.11456)). <a href="https://mp.weixin.qq.com/s/EkVeW5pLRM8_T6hrrs7lsA" style="background-color:rgb(136, 0, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a> <a href="https://huggingface.co/datasets/zwhe99/DeepMath-103K" style="background-color:rgb(186, 174, 0); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Data</a>
 - 2025.01 We revealed the underthinking issue in large reasoning models ([ArXiv](https://arxiv.org/abs/2501.18585)). <a href="https://mp.weixin.qq.com/s/6oejP8sKLAHGeD2esUZPcA" style="background-color:rgb(136, 0, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
 
 
-## Publications
+# Publications
 
 - **(Artificial Intelligence)** [Are the BERT family zero-shot learners? A study on their potential and limitations](https://www.sciencedirect.com/science/article/abs/pii/S0004370223000991/)
 
@@ -63,7 +63,7 @@ I am actively seeking industry positions and welcome opportunities to apply my r
 
     Xiaobo Liang, Lijun Wu, Juntao Li, **Yue Wang**, Qi Meng, Tao Qin, Wei Chen, Min Zhang, Tie-Yan Liu.
 
-## Pre-Prints
+# Pre-Prints
 - [Thoughts are all over the place: On the underthinking of o1-like llms](https://arxiv.org/abs/2501.18585) <a href="https://mp.weixin.qq.com/s/6oejP8sKLAHGeD2esUZPcA" style="background-color:rgb(136, 0, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Media Report</a>
 
     **Yue Wang**, Qiuzhi Liu, Jiahao Xu, Tian Liang, Xingyu Chen, Zhiwei He, Linfeng Song, Dian Yu, Juntao Li, Zhuosheng Zhang, Rui Wang, Zhaopeng Tu, Haitao Mi, Dong Yu.
@@ -88,14 +88,14 @@ I am actively seeking industry positions and welcome opportunities to apply my r
 
     Dan Qiao, Yi Su, Pinzheng Wang, Jing Ye, Wenjing Xie, Yuechi Zhou, Yuyang Ding, Zecheng Tang, Jikai Wang, Yixin Ji, **Yue Wang**, Pei Guo, Zechen Sun, Zikang Zhang, Juntao Li, Pingfu Chao, Wenliang Chen, Guohong Fu, Guodong Zhou, Qiaoming Zhu, Min Zhang.
 
-## Talk
+# Talk
 - "The Challenge of Reasoning Efficiency in Large Reasoning Models" (BAAI 2025) <a href="https://event.baai.ac.cn/activities/928" style="background-color:rgb(0, 84, 186); color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; font-size: 12px;">Video</a>
 
-## Internships
+# Internships
 - 2024.09 - 2025.03, research intern at Tencent Hunyuan Digital Human, advised by Dr. Zhaopeng Tu
 - 2024.09 - 2025.03, research intern at Tencent AI Lab, advised by Dr. Zhaopeng Tu
 - 2022.03 - 2024.08, research intern at Ant Group
 
-## Awards
+# Awards
 - 2021, Outstanding Graduate Student at Soochow University
 - 2019, CW Chu Scholarship at Soochow University
